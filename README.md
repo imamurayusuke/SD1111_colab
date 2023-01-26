@@ -1,0 +1,2 @@
+# SD1111_colab
+AUTOMATIC1111/Stable Diffusion WebUIをGoogle Colaboratoryで使うためのipynb
