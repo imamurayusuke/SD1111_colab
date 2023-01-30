@@ -13,7 +13,7 @@ AUTOMATIC1111/Stable Diffusion WebUI（SD/WebUI）をGoogle Colaboratoryで使�
   - 生成した画像（outputsフォルダ、logフォルダ）
   - 各種の設定（config.json、ui-config.json、styles.csv）
     - これらはSD/WebUIが読み込む際にGoogleドライブ上にバックアップを作る（config_bak.json、ui-config_bak.json、styles_bak.json）
-  - インストールした拡張機能（extensionsフォルダ。日本語化の拡張機能に限り初回起動時に自動でダウンロードされます）
+  - インストールした拡張機能（extensionsフォルダ。日本語化の拡張機能に限り初回起動時に自動でダウンロードされる）
 
 ### ただ起動するだけで使える（テキストボックスへの入力やチェックボックスのオン／オフなどの操作は不要）
 
@@ -32,4 +32,4 @@ AUTOMATIC1111/Stable Diffusion WebUI（SD/WebUI）をGoogle Colaboratoryで使�
 
 各回とも一度実行すれば、SD/WebUIは次回以降の起動時にGoogleドライブ側にある各種設定ファイルを読み出し書き出す（シンボリックリンクを利用）。
 
-SD/WebUIがgit pullの時点でこれらのファイルをとりあえず生成してくれれば、それをGoogleドライブにコピーしてそこへシンボリックリンクを張ってからSD/WebUIをインストールできる。しかしこれらは初回の起動後にしか生成されない。
+SD/WebUIがgit pullの時点でこれらのファイルをとりあえず生成してくれれば、それをGoogleドライブにコピーしてそこへシンボリックリンクを張ってからSD/WebUIをインストールできる。しかしこれらが生成されるのは早くても初回の起動後である
