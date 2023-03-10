@@ -1,7 +1,7 @@
 # SD1111_colab
 AUTOMATIC1111/Stable Diffusion WebUI（SD/WebUI）をGoogle Colaboratoryで使うためのipynb
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/imamurayusuke/SD1111_colab/blob/main/SD1111_colab.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/imamurayusuke/SD1111_colab/blob/main/SD1111_colab.ipynb) ←これをクリックしてどうぞ
 
 ## 特徴
 
