@@ -13,7 +13,7 @@ AUTOMATIC1111/Stable Diffusion WebUI（SD/WebUI）をGoogle Colaboratoryで使�
 #### Googleドライブに保存されるもの（保存先は「Colab Notebooks」－「Stable Diffusion」フォルダ）
 - 生成した画像（outputsフォルダ、logフォルダ）
 - 各種の設定（config.json、ui-config.json、styles.csv）
-  - これらはSD/WebUIが読み込む際にGoogleドライブ上にバックアップを作る（config_bak.json、ui-config_bak.json、styles_bak.json）
+  - これらはSD/WebUIが読み込む際にGoogleドライブ上にバックアップを作る（config_bak.json、ui-config_bak.json、styles_bak.csv）
 - インストールした拡張機能（extensionsフォルダ。日本語化の拡張機能に限り初回起動時に自動でダウンロードされる）
 
 ### ただ起動するだけで使える（テキストボックスへの入力やチェックボックスのオン／オフなどの操作は不要）
