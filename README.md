@@ -9,7 +9,7 @@ AUTOMATIC1111/Stable Diffusion WebUI（SD/WebUI）をGoogle Colaboratoryで使�
 - SD/WebUIはランタイム上にインストール
 - 学習モデル（ckptやsafetensors）もランタイム上にダウンロード
   - 読み込まれる学習モデルは公式（[v2-1_768-ema-pruned.safetensors](https://huggingface.co/stabilityai/stable-diffusion-2-1)）とでりだモデル（[derrida_final.ckpt](https://huggingface.co/naclbit/trinart_derrida_characters_v2_stable_diffusion)）、vae含む
-  - ほかのモデルを使いたいときは、ノートブックを自分のGoogleドライブにコピーしてソースリストを編集してください
+  - ほかのモデルを使いたいときは、ノートブックを自分のGoogleドライブにコピーしてソースコードを編集してください
 
 #### Googleドライブに保存されるもの（保存先は「Colab Notebooks」－「Stable Diffusion」フォルダ）
 - 生成した画像（outputsフォルダ、logフォルダ）
@@ -35,3 +35,9 @@ AUTOMATIC1111/Stable Diffusion WebUI（SD/WebUI）をGoogle Colaboratoryで使�
 各回とも一度実行すれば、SD/WebUIは次回以降の起動時にGoogleドライブ側にある各種設定ファイルを読み出し書き出す（シンボリックリンクを利用）。
 
 SD/WebUIがgit pullの時点でこれらのファイルをとりあえず生成してくれれば、それをGoogleドライブにコピーしてそこへシンボリックリンクを張ってからSD/WebUIをインストールできる。しかしこれらが生成されるのは早くても初回の起動後である
+
+## 関連リンク
+
+ブログの記事も参考にしてください。
+
+[Stable Diffusion WebUIをGoogle Colabで使うノートブック \- ただいま村](https://ima.hatenablog.jp/entry/2023/03/15/200000)
