@@ -1,3 +1,7 @@
+# 無料プランでは使えなくなりました
+
+2023年4月21日以降、Google Colaboratory上でStable Diffusionを起動できるのは有料プランのみになりました。経緯を「[Google Colabの無料プランでStable Diffusionを使えなくなったらModalへ行こう?](https://ima.hatenablog.jp/entry/2023/04/22/163000)」にまとめています。
+
 # SD1111_colab
 AUTOMATIC1111/Stable Diffusion WebUI（SD/WebUI）をGoogle Colaboratoryで使うためのipynb
 
